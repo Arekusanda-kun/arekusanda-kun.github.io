@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ECF0F1;
+    overflow-y: scroll;
+}
+
+ ::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+    display: inline-block;
+}
+/* Шрифт */
+
+* {
+    font-family: "Oswald", Arial, sans-serif;
+}
+/*  Главная     */
+
+#sites {
+    text-align: center;
+    position: relative;
+    display: block;
+    background: url(maldives-1993704.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; 
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+     filter: blur(3px);
+}
+
+#main_text {
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: #FFF;
+    border: solid;
+    font-size: 3vw;
+    display: inline-block;
+}
+
+/*  2 страница сайта    */
+
+#main_1 {
+    background-color: white;
+    display: block;
+    margin-top: 3%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 7%;
+    padding-right: 7%; 
+    margin:0;
+}
+
+#block1 {
+    display: table;
+    position: relative;
+}
+
+#block2 {
+    display: table;
+    position: relative;
+}
+
+#stp_1 {
+    float: left;
+    position: relative;
+    display: table;
+    margin-right: 5%;
+}
+
+#stp_11 {
+    display: table;
+    width: 40vw;
+    height: auto;
+}
+
+#st_1 {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    overflow: hidden;
+    position: relative;
+    display: table;
+    background-position: center;
+    background-color: white;
+    font-size: 3.2vh;
+}
+
+#stp_2 {
+    float: right;
+    position: relative;
+    display: table;
+    background-position: center;
+}
+
+#stp_22 {
+    display: table;
+    margin-top: 1vw;
+    width: 40vw;
+    height: auto;
+    border-radius: 10px;    /*  радиус 2 картинки   */
+    border: dashed;
+}
+
+#st_2 {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 3em;
+    overflow: hidden;
+    position: relative;
+    display: table;
+    background-position: center;
+    background-color: white;
+    font-size: 3.2vh;
+    bottom: -0.7em;
+}
+
+/*  3 страница сайта    */
+
+#main_info{
+    background-color: white;
+    display: block;
+    position: relative;
+    overflow: auto;
+    height: autos;
+    width: 50vw;
+    transform: translate(50%);
+    margin-top: 3%;
+    padding-top: 2vh;
+}
+
+#main_li{
+    display: flow-root;
+    list-style: none;
+    margin-left: -3vh;
+    margin-top:  -3vh;
+}
+#img_li{
+    display: block;
+    float: left;
+    height: auto;
+    width: 7vw;
+}
+
+#img_li1{
+    display: block;
+    float: left;
+    height: auto;
+    width: 6vw;
+}
+
+#other{
+    display: flow-root;
+    list-style: none;
+    margin-top: 2vh;
+    margin-left: -2vh;
+}
+
+#sreda{
+    display: block;
+    margin-top: 1.75vw;
+    color: rgb(0, 153, 102);
+    font-size: 4.5vh;
+}
+
+#info1{
+    display: block;
+    margin-top: 0.5vw;
+    color: #663333;
+    font-size: 3vh;
+}
+
+#main_2 {
+    background-color: white;
+    display: block;
+    margin-top: 3%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+#footer{
+    background: #17A05D;
+}
+
+#footer > p{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+/* MOBILE */
+
+@media only screen and (max-device-width:1024px) {
+    nav {
+        width: 100vw;
+        height: 6vh;
+        line-height: 6vh;
+        transform: translate(0);
+    }
+
+    nav>ul>li a {
+        font-size: 3vh;
+    }
+
+    #main_text {
+        font-size: 3vh;
+    }
+
+    #main {
+        height: auto;
+        width: 80vw;
+        transform: translate(12%);
+    }
+
+    #main_info {
+        height: auto;
+        width: 80vw;
+        transform: translate(12%);
+    }
+
+    #stp_11 {
+        width: 105%;
+        height: auto;
+    }
+
+    #stp_22 {
+        width: 116%;
+        height: auto;
+    }
+
+    #stp_2 {
+    float: none;
+    }
+
+    #st_1 {
+        padding-right: 0px;
+    }
+
+    #st_2 {
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    nav {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        width: 100vw;
+        transform: translate(0);
+    }
+    nav>ul>li a {
+        font-size: 2.4vh;
+    }
+    #main_text {
+        font-size: 3vh;
+    }
+    #main {
+        height: auto;
+        width: 80vw;
+        transform: translate(12%);
+    }
+    #main_info {
+        height: auto;
+        width: 80vw;
+        transform: translate(12%);
+    }
+    #stp_11 {
+        width: 105%;
+        height: auto;
+    }
+    #stp_22 {
+        width: 100%;
+        height: auto;
+    }
+    #st_1 {
+        padding-right: 0px;
+    }
+    #st_2 {}
+}
+
+@media only screen and (device-width:768px) {
+    nav {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        width: 100vw;
+        transform: translate(0);
+    }
+    nav>ul>li a {
+        font-size: 2.4vh;
+    }
+    #main_text {
+        font-size: 3vh;
+    }
+    #main_info {
+        height: auto;
+        width: 80vw;
+        transform: translate(12%);
+    }
+    #stp_11 {
+        width: 105%;
+        height: auto;
+    }
+    #stp_22 {
+        width: 100%;
+        height: auto;
+    }
+    #st_1 {
+        padding-right: 0px;
+    }
+    #st_2 {
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (max-device-width:480px) {
+    nav {
+        width: 100vw;
+        transform: translate(0);
+    }
+    #main_text {
+        font-size: 3vh;
+    }
+    nav>ul>li a {
+        font-size: 2.4vh;
+    }
+    #stp_11 {
+        width: 100vw;
+        height: auto;
+    }
+    #stp_22 {
+        width: 100vw;
+        height: auto;
+    }
+    #main {
+        height: auto;
+        width: 100vw;
+        transform: translate(0);
+        font-size: 2.2vh;
+    }
+    #main_info {
+        height: auto;
+        width: 100vw;
+        transform: translate(0);
+        font-size: 2.2vh;
+    }
+    #block2 {
+        width: 100vw;
+    }
+    #stp_1 {
+        margin-right: 0px;
+    }
+    #stp_2 {
+        margin-right: 0px;
+    } 
+}

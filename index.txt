@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>На планете стало слишком грязно</title>
+    <link href='style.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+	<div id="sites">
+		<nav>
+			<ul>
+				<li><a href="#"> Главная </a></li>
+				<li><a href="#"> Помощь </a></li>
+				<li><a href="#"> О нас </a></li>
+				<li><a href="#"> Контакти </a></li>
+			</ul>
+		</nav>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
