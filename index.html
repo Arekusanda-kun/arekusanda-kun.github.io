@@ -1,70 +1,44 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Наше море такое прекрасное</title>
-    <link href='style.css' rel='stylesheet' type='text/css'>
-    <!-- <script src="script.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="shortcut icon" href="/images/icon.ico" type="image/png">
+	<link href='style.css' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<title>Збережемо природу</title>
 </head>
-
 <body>
-    <div id="child">
-        <div id="sites"></div>
-        <div id="main_text">
-                <p>Наше море такое прекрасное</p>
-            </div>
-        <div id="main_1">
-            <section id="block1">
-                <div id="stp_1"><img id="stp_11" src="img_1.jpg" ></div>
-                <div id="st_1">
-                    <p>Но к сожалению, море постепенно превращается в огромную помойку, куда попадают все виды отбросов. Люди выбрасывают мусор прямо в море. При этом это не только пищевые отходы, которые накормят рыб, но и те, которые очень-очень долго не разлагаются. Такой мусор накапливается в море или плывёт к берегам.</p>
-                </div>
-            </section>
-            <section id="block2">
-                <div id="stp_2"><img id="stp_22" src="img/5-65-min.jpg"></div>
-                <div id="st_2">
-                    <p>Пластмассовые отходы составляют целые скопления и пятна в водах Тихого, Атлантического и Индийского океанов. Большинство мусора образуется из-за сброса отходов с густонаселенных районов побережья. Часто морские животные проглатывают пакеты и мелкие частицы пластика, путая с пищей, что приводит к их гибели.</p>
-                </div>
-            </section>
-        </div>
-        <div id="main_info">
-        	<ul>
-        	<li id="main_li"><img id="img_li" src="img/globus.png"><p id="sreda">Окружающая среда</p></li>
-        	<li id="other"><img id="img_li1" src="img/penj.png"><p id="pen">4.334.074 (га) <br>
-Исчезло леса в этом году.</p></li>
-			<li id="other"><img id="img_li1" src="img/zavod.png"><p id="info1">32.244.977.255 (т.) <br>
-Выбросов углекислого газа в этом году.
-</p></li>
-			<li id="other"><img id="img_li1" src="img/western.png"><p id="info1">10.000.929 (га)<br>
-Опустынивание земель в этом году.</p></li>
-			<li id="other"><img id="img_li1" src="img/radioactive.png"><p id="info1">8.161.140 (т.)<br>
-Токсичных химикатов выброшено в этом году в окружающую среду</p></li>
-			<li id="other"><img id="img_li1" src="img/water.png"><p id="info1">6.478.474 (млрд. литров)<br>
-Воды потреблено в этом году </p></li>
+	
+	<div id="menu">
+		<nav>
+			<ul>
+				<a href="#" onclick="show(main);" class="logo"><img id="logo" src="images/LOGO.png"></a>
+				<li><a href="#" onclick="show(main);">Главная</a></li>
+				<li><a href="#" onclick="show(goodPage)">Добро</a></li>
+				<li><a href="#" onclick="show(badPage);">Зло</a></li>
 			</ul>
-    </div>
-    <div id="main_2">
-            <section id="block1">
-                <div id="stp_1"><img id="stp_11" src="big152504img_6664.jpg"></div>
-                <div id="st_1">
-                    <p>Множество суровых законов запрещает выбрасывать в море мусор и различные отходы. И всё же некоторые люди делают вид, что не знают об этом, и сбрасывают мусор с самосвалов прямо в морские волны. Они очень плохо поступают сбрасывая банановые шкурки, фантики, бутылки и банки. Море не для них одних, а для всех. Так приятно, когда оно чистое! Каждый из нас должен сделать хоть немного для того, чтобы морские волны всегда были синими, а пена — белой.
-                    </p>
-                </div>
-            </section>
-            <section id="block2">
-                <div id="stp_2"><img id="stp_22" src="1432109520_neft.jpg" border="3px" ></div>
-                <div id="st_2">
-                    <p>Если танкер, наполненный нефтью, прольёт её хоть немного, это большая беда для моря. Нефть разливается по поверхности воды огромным жирным пятном, обитатели моря и водоросли отравляются, а у морских птиц склеиваются перья, и они погибают тысячами.</p>
-                </div>
-            </section>
-        </div>
-        <footer id="footer">
-            <p>2017–2018 ©</p>
-            <p>Наше море такое прекрасное</p>
-        </footer>
+		</nav>
+	</div>
+	<div id="header">
+		<div id="loading_layer">
+			<img src="images/preloader.gif"/>
+		</div>
+	</div>
+	<div id="spacer"></div>
+	<footer>
+		<p>Developers:<br> Alex Boiko - alex.boiko.2001@gmail.com<br>
+		Alex Reznichenko - alex.reznichenko2001@gmail.com<br></p>
+		<p>Designer:<br> Dasha Galkina - Daasha4047@list.ru</p>
+	</footer>
+	<div id="spacerEnd"></div>
+	<script type="text/javascript" src="script.js">
+	</script>
+	<script type="text/javascript">show(main);</script><!--load main page-->
+	<script type="text/javascript">
+		function hideLoadingLayer(){
+		document.getElementById("loading_layer").style.visibility="hidden";
+		}
+	</script>
 </body>
-
 </html>
